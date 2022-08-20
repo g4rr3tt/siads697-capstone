@@ -7,7 +7,7 @@ TBD
 TBD
 
 ## Requirements
-If the notebooks are run locally, the following command will install the packages according to the configuration file requirements.txt
+If the notebooks are run locally, the following command will install the packages according to the configuration file [requirements.txt](requirements.txt).
 
 ```bash
 # install requirements
