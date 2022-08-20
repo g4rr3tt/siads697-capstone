@@ -6,7 +6,9 @@ Please visit [https://www.pg-protagonists.com](https://www.pg-protagonists.com) 
 <img src="images/website.png" width="500">
 
 ## Abstract
-The US power grid network is both interesting and incredibly complex. Governed by 70+ balancing authorities, 13,000+ power plants, 77,000+ substations, and 160,000+ miles of high-voltage power lines and millions of low-voltage power lines and distribution transformers connecting customers around the United States. The notebooks in this respository seek to achieve the following:
+This repository represents a capstone project for the University of Michigan, Master of Applied Data Science program.
+
+The U.S. power grid network is both interesting and incredibly complex. Governed by 70+ balancing authorities, 13,000+ power plants, 77,000+ substations, and 160,000+ miles of high-voltage power lines and millions of low-voltage power lines and distribution transformers connecting customers around the United States. The notebooks in this respository seek to achieve the following:
   - Visualize the U.S. network of power plants, substations, and balancing authorities
   - Identify potential vulnerabilities in the U.S. power grid.
   - Provide inherent risk assessment based on network measures, outages, weather events, etc.
