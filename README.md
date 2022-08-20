@@ -42,7 +42,7 @@ This notebook imports time series data to explore seasonality of balancing autho
 This notebook leverages the metrics and analysis from prior notebooks to explore risk associated with substations and balancing authorities.
 
 ## License
-This project is distributed under MIT License.
+This project is distributed under the [MIT License](LICENSE.md).
 
 ## Team Members
   - Garrett Woody, gwoody@umich.edu
