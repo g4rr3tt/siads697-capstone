@@ -1,10 +1,31 @@
 # MADS Capstone - Power Grid Protagonists
 
+## Website
+Please visit [https://www.pg-protagonists.com](https://www.pg-protagonists.com) for additional background and a detailed analysis of the results.
+
 ## Abstract
-TBD
+The US power grid network is both interesting and incredibly complex. Governed by 70+ balancing authorities, 13,000+ power plants, 77,000+ substations, and 160,000+ miles of high-voltage power lines and millions of low-voltage power lines and distribution transformers connecting customers around the United States. The notebooks in this respository seek to achieve the following:
+  - Visualize the U.S. network of power plants, substations, and balancing authorities
+  - Identify potential vulnerabilities in the U.S. power grid.
+  - Provide inherent risk assessment based on network measures, outages, weather events, etc.
+
+<img src="images/substation_network.png" width="500">
+<img src="images/power_plant_balancing_authority_network.png" width="500">
+<img src="images/balancing_authority_network.png" width="500">
 
 ## Data Sources
-TBD
+  - Energy Information Agency (EIA)
+    - Hourly Electronic Grid Monitor
+  - U.S. Environmental Protection Agency (EPA) 
+    - Emissions & Generation Resource Integrated Database (eGRID)
+  - Department of Homeland Security (DHS)
+    - Power Plants, Electric Substations, and Electric Transmission Lines
+  - Department of Energy (DOE)
+    - Major Disturbances & Unusual Occurrences
+  - U.S. Census
+    - County population data
+  - NOAA Northeast Regional Climate Center (NRCC)
+    - Daily Maximum Temperatures by US City
 
 ## Requirements
 If the notebooks are run locally, the following command will install the packages according to the configuration file [requirements.txt](requirements.txt).
@@ -27,7 +48,7 @@ This notebook performs various cleaning activities on the raw data sets, includi
 
 3. [03_network_analysis.ipynb](notebooks/03_network_analysis.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SgRCiBWNVZKtddUtvYJeGxFuJ0hdKoPN?usp=sharing)  
-This notebook imports the cleaned data and creates the networks for power plants and substations, and power plants and balancing authorities. It also calculates related metrics for degree centrality, betweenness centrality, and clustering coefficients, and combines those with the cleaned data.
+This notebook imports the cleaned data and creates the networks for power plants and substations, and power plants and balancing authorities. It also calculates related metrics for degree centrality, betweenness centrality, and clustering coefficients, and combines those with the cleaned data.    As some of the metrics take a long time to calculate, such as betweeness centrality, pickle files are provided in the [models](models) directory and leveraged by default, although the code to re-run them is avaialble in the notebook and can be uncommented.
 
 4. [04_electric_disturbance_events.ipynb](notebooks/04_electric_disturbance_events.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N-Pr-oG4TLxdJjTijiuFnTMDd8QI-mzc?usp=sharing)  
