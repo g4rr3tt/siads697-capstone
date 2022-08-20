@@ -29,6 +29,11 @@ The US power grid network is both interesting and incredibly complex. Governed b
   - NOAA Northeast Regional Climate Center (NRCC)
     - Daily Maximum Temperatures by US City
 
+## Entity Relationship Diagram
+The data sources used to create the network required significant cleaning. The entity relationship diagram, post-cleaning, is included below as a reference.
+
+<img src="images/entity_relationship_diagram.png" width="800">
+
 ## Requirements
 If the notebooks are run locally, the following command will install the packages according to the configuration file [requirements.txt](requirements.txt).
 
