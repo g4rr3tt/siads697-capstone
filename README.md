@@ -18,6 +18,10 @@ The U.S. power grid network is both interesting and incredibly complex. Governed
 <img src="images/balancing_authority_network.png" width="500">
 
 ## Data Sources
+The [01_data_collection.ipynb](notebooks/01_data_collection.ipynb) notebook will download and organize all data sets from their source location. The combined size of all data sets is approximately 400MB.
+
+The primary data sets are below:
+
   - Energy Information Agency (EIA)
     - [Hourly Electronic Grid Monitor](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48)
   - U.S. Environmental Protection Agency (EPA) 
@@ -28,10 +32,6 @@ The U.S. power grid network is both interesting and incredibly complex. Governed
     - [Electric Power Transmission Lines](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::electric-power-transmission-lines-1/about)
   - Department of Energy (DOE)
     - [Major Disturbances & Unusual Occurrences](https://www.oe.netl.doe.gov/OE417_annual_summary.aspx)
-  - U.S. Census
-    - [County population data](https://data.census.gov/cedsci/)
-  - NOAA Northeast Regional Climate Center (NRCC)
-    - [Daily Maximum Temperatures by US City](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)
 
 ## Entity Relationship Diagram
 The data sources used to create the network required significant cleaning. The entity relationship diagram, post-cleaning, is included below as a reference.
