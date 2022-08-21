@@ -79,5 +79,6 @@ This notebook leverages the metrics and analysis from prior notebooks to explore
 This project is distributed under the [MIT License](LICENSE.md).
 
 ## Team Members
-  - Garrett Woody, gwoody@umich.edu
   - Paul Natland, pnatland@umich.edu
+  - Garrett Woody, gwoody@umich.edu
+
