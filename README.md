@@ -49,6 +49,8 @@ $ pip install -r requirements.txt
 ## Notebooks
 The project is designed to run the Jupyter notebooks in a specfic order to clean and enrich the original data sets as well as allow additional exploration at different stages. The notebooks can be run locally, or directly in Google Colab using the links below.
 
+Each notebook will need access to data from the prior notebook, so if you are running in Google Colab, you will want to adjust the data storage location in the "Mount Drive" section.
+
 1. [01_data_collection.ipynb](notebooks/01_data_collection.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1h7_Lini_DragojOUY1e35wTTF2ahUDoC?usp=sharing)  
 This notebook downloads all of the raw data sets and will create the necessary folder structure (data/raw/) in your working directory.
