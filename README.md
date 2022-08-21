@@ -19,17 +19,19 @@ The U.S. power grid network is both interesting and incredibly complex. Governed
 
 ## Data Sources
   - Energy Information Agency (EIA)
-    - Hourly Electronic Grid Monitor
+    - [Hourly Electronic Grid Monitor](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48)
   - U.S. Environmental Protection Agency (EPA) 
-    - Emissions & Generation Resource Integrated Database (eGRID)
+    - [Emissions & Generation Resource Integrated Database (eGRID)](https://www.epa.gov/egrid)
   - Department of Homeland Security (DHS)
-    - Power Plants, Electric Substations, and Electric Transmission Lines
+    - [Power Plants](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::power-plants-5/about)
+    - [Electric Substations](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::electric-substations-1/about)
+    - [Electric Power Transmission Lines](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::electric-power-transmission-lines-1/about)
   - Department of Energy (DOE)
-    - Major Disturbances & Unusual Occurrences
+    - [Major Disturbances & Unusual Occurrences](https://www.oe.netl.doe.gov/OE417_annual_summary.aspx)
   - U.S. Census
-    - County population data
+    - [County population data](https://data.census.gov/cedsci/)
   - NOAA Northeast Regional Climate Center (NRCC)
-    - Daily Maximum Temperatures by US City
+    - [Daily Maximum Temperatures by US City](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)
 
 ## Entity Relationship Diagram
 The data sources used to create the network required significant cleaning. The entity relationship diagram, post-cleaning, is included below as a reference.
