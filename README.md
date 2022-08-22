@@ -13,6 +13,8 @@ The U.S. power grid network is both interesting and incredibly complex. Governed
   - Identify potential vulnerabilities in the U.S. power grid.
   - Provide inherent risk assessment based on network measures, outages, weather events, etc.
 
+<img src="images/risk_algorithm.png" width="750">
+
 ## Data Sources
 The [01_data_collection.ipynb](notebooks/01_data_collection.ipynb) notebook will download and organize all data sets from their source location. The combined size of all data sets is approximately 400MB.
 
