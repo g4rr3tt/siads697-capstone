@@ -13,10 +13,6 @@ The U.S. power grid network is both interesting and incredibly complex. Governed
   - Identify potential vulnerabilities in the U.S. power grid.
   - Provide inherent risk assessment based on network measures, outages, weather events, etc.
 
-<img src="images/substation_network.png" width="500">
-<img src="images/power_plant_balancing_authority_network.png" width="500">
-<img src="images/balancing_authority_network.png" width="500">
-
 ## Data Sources
 The [01_data_collection.ipynb](notebooks/01_data_collection.ipynb) notebook will download and organize all data sets from their source location. The combined size of all data sets is approximately 400MB.
 
@@ -74,6 +70,19 @@ This notebook imports time series data to explore seasonality of balancing autho
 6. [06_risk_analysis.ipynb](notebooks/06_risk_analysis.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wFKJzp2QPBhcdu1_aX9kwhhy8INKUpj8?usp=sharing) 
 This notebook leverages the metrics and analysis from prior notebooks to explore risk associated with substations and balancing authorities.
+
+## Sample Output
+Some of the visuals and information from these notebooks can be found below.
+
+### Network
+<img src="images/substation_network.png" width="500">
+<img src="images/power_plant_balancing_authority_network.png" width="500">
+<img src="images/balancing_authority_network.png" width="500">
+
+### Forecasting
+
+### Risk
+
 
 ## License
 This project is distributed under the [MIT License](LICENSE.md).
