@@ -32,7 +32,7 @@ The primary data sets are below:
 ## Entity Relationship Diagram
 The data sources used to create the network required significant cleaning. The entity relationship diagram, post-cleaning, is included below as a reference.
 
-<img src="images/entity_relationship_diagram.png" width="800">
+<img src="images/entity_relationship_diagram.png" width="750">
 
 ## Requirements
 If the notebooks are run locally, the following command will install the packages according to the configuration file [requirements.txt](requirements.txt).
@@ -80,8 +80,11 @@ Some of the visuals and information from these notebooks can be found below.
 <img src="images/balancing_authority_network.png" width="500">
 
 ### Forecasting
+<img src="images/seasonality.png" width="750">
+<img src="images/forecasting.png" width="750">
 
 ### Risk
+<img src="images/substation_risk_scores.png" width="750">
 
 
 ## License
